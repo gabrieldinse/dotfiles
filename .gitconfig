@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Gabriel Dinse
+	email = gabriel.dinse@outlook.com
+[init]
+	defaultBranch = main
+[color]
+  branch = true
+  interactive = true
+  status = true
+[core]
+  editor = vim
+  diff = vimdiff
+  pager = less
+[push]
+  default = simple
+[diff]
+  submodule = log
+  algorithm = histogram
+[pull]
+  ff = only

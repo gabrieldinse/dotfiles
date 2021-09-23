@@ -1,0 +1,75 @@
+set nocompatible              " be iMproved, required
+set encoding=utf-8
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
+Plugin 'https://github.com/NLKNguyen/papercolor-theme.git'
+Plugin 'https://github.com/itchyny/lightline.vim'
+Plugin 'https://github.com/prettier/vim-prettier'
+Plugin 'https://github.com/kergoth/vim-bitbake'
+Plugin 'https://github.com/Yggdroot/indentLine'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+syntax on
+set nu
+set t_Co=256
+
+set background=dark
+colorscheme PaperColor
+
+let g:lightline = {
+\   'colorscheme': 'PaperColor',
+\   'active': {
+\     'left': [
+\       [ 'mode', 'paste' ],
+\       [ 'readonly', 'absolutepath', 'modified' ]
+\     ],
+\   },
+\ }
+
+set backspace=2
+set cscopeverbose
+set cursorline
+set fsync
+set hlsearch
+set incsearch
+set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
+set laststatus=2
+set nrformats="bin,hex"
+set ttyfast
+
+set tags=./tags
+
+set tabstop=2 shiftwidth=2 expandtab                 "bash
+"set tabstop=8 shiftwidth=8                           "switchd
+"set tabstop=4 shiftwidth=4 expandtab                 "lua
+"set tabstop=4 shiftwidth=4                           "fm / switchd
+set colorcolumn=80
+
+let g:sql_type_defaults='sqlanywhere'
+
+let g:ctrlp_custom_ignore = { 'dir': '\v(build|\.git|node_modules|platforms|App_Resources)$' }
+let g:ctrlp_working_path_mode = 'a'
