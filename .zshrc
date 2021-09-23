@@ -114,4 +114,4 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias config='/usr/bin/git --git-dir=/home/dinse/.cfg/ --work-tree=/home/dinse'
+alias dotfiles-backup='/usr/bin/git --git-dir=/home/dinse/.cfg/ --work-tree=/home/dinse'
