@@ -11,6 +11,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'https://github.com/ycm-core/YouCompleteMe.git'
 Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
 Plugin 'https://github.com/NLKNguyen/papercolor-theme.git'
 Plugin 'https://github.com/itchyny/lightline.vim'
@@ -68,6 +69,11 @@ set tabstop=2 shiftwidth=2 expandtab                 "bash
 "set tabstop=4 shiftwidth=4 expandtab                 "lua
 "set tabstop=4 shiftwidth=4                           "fm / switchd
 set colorcolumn=80
+
+let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_autoclose_preview_window_after_insertion=1
+let g:ycm_add_preview_to_completeopt=0
+let g:ycm_confirm_extra_conf=0
 
 let g:sql_type_defaults='sqlanywhere'
 
