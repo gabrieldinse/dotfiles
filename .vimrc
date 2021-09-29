@@ -64,9 +64,9 @@ set ttyfast
 
 set tags=./tags
 
-set tabstop=2 shiftwidth=2 expandtab                 "bash
+"set tabstop=2 shiftwidth=2 expandtab                 "bash
 "set tabstop=8 shiftwidth=8                           "switchd
-"set tabstop=4 shiftwidth=4 expandtab                 "lua
+set tabstop=4 shiftwidth=4 expandtab                 "lua
 "set tabstop=4 shiftwidth=4                           "fm / switchd
 set colorcolumn=80
 
@@ -79,3 +79,7 @@ let g:sql_type_defaults='sqlanywhere'
 
 let g:ctrlp_custom_ignore = { 'dir': '\v(build|\.git|node_modules|platforms|App_Resources)$' }
 let g:ctrlp_working_path_mode = 'a'
+
+set directory=~/.vim/tmp
+set backupdir=~/.vim/tmp
+set undodir=~/.vim/tmp
