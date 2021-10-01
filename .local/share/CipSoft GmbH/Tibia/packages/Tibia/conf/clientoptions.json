@@ -1476,6 +1476,30 @@
                     "mappings": [
                         {
                             "actionBar": 1,
+                            "actionButton": 9,
+                            "actionsetting": {
+                                "chatText": "utito tempo san",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 32,
+                            "actionsetting": {
+                                "chatText": "exevo con flam",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 7,
+                            "actionsetting": {
+                                "chatText": "exori san",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
                             "actionButton": 4,
                             "actionsetting": {
                                 "chatText": "exura gran san",
@@ -1555,30 +1579,6 @@
                             }
                         },
                         {
-                            "actionBar": 1,
-                            "actionButton": 9,
-                            "actionsetting": {
-                                "chatText": "utito tempo san",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 32,
-                            "actionsetting": {
-                                "chatText": "exevo con flam",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 7,
-                            "actionsetting": {
-                                "chatText": "exori san",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
                             "actionBar": 2,
                             "actionButton": 1,
                             "actionsetting": {
@@ -1652,6 +1652,94 @@
                         },
                         {
                             "actionBar": 8,
+                            "actionButton": 9,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 16112,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 20,
+                            "actionsetting": {
+                                "useObject": 9598,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 8,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 14087,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 19,
+                            "actionsetting": {
+                                "useObject": 5908,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 35901,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 14,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 27565,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 35849,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 13,
+                            "actionsetting": {
+                                "useEquipSmartMode": true,
+                                "useObject": 16114,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 22866,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
+                            "actionButton": 12,
+                            "actionsetting": {
+                                "useEquipSmartMode": true,
+                                "useObject": 3049,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 8,
                             "actionButton": 11,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
@@ -1704,90 +1792,125 @@
                             }
                         },
                         {
-                            "actionBar": 8,
-                            "actionButton": 4,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 35901,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 8,
-                            "actionButton": 19,
-                            "actionsetting": {
-                                "useObject": 5908,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 8,
+                            "actionBar": 7,
                             "actionButton": 8,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
-                                "useObject": 14087,
+                                "useObject": 16111,
                                 "useType": "Equip"
                             }
                         },
                         {
-                            "actionBar": 8,
-                            "actionButton": 20,
+                            "actionBar": 7,
+                            "actionButton": 19,
                             "actionsetting": {
-                                "useObject": 9598,
+                                "useObject": 5942,
                                 "useType": "SelectUseTarget"
                             }
                         },
                         {
-                            "actionBar": 8,
-                            "actionButton": 9,
+                            "actionBar": 7,
+                            "actionButton": 7,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
-                                "useObject": 16112,
+                                "useObject": 16110,
                                 "useType": "Equip"
                             }
                         },
                         {
-                            "actionBar": 8,
-                            "actionButton": 12,
+                            "actionBar": 7,
+                            "actionButton": 18,
                             "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 3049,
-                                "useType": "Equip"
+                                "useObject": 7443,
+                                "useType": "Use"
                             }
                         },
                         {
-                            "actionBar": 8,
-                            "actionButton": 1,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 22866,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 8,
-                            "actionButton": 13,
-                            "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 16114,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 8,
-                            "actionButton": 3,
+                            "actionBar": 7,
+                            "actionButton": 15,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
-                                "useObject": 35849,
+                                "useObject": 22061,
                                 "useType": "Equip"
                             }
                         },
                         {
-                            "actionBar": 8,
+                            "actionBar": 7,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "useObject": 15793,
+                                "useType": "Use"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 5,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 6528,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
                             "actionButton": 14,
                             "actionsetting": {
                                 "useEquipSmartMode": false,
-                                "useObject": 27565,
+                                "useObject": 3057,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 35848,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 13,
+                            "actionsetting": {
+                                "useEquipSmartMode": true,
+                                "useObject": 3053,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 29417,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 11,
+                            "actionsetting": {
+                                "useEquipSmartMode": true,
+                                "useObject": 3051,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useEquipSmartMode": false,
+                                "useObject": 8023,
+                                "useType": "Equip"
+                            }
+                        },
+                        {
+                            "actionBar": 7,
+                            "actionButton": 12,
+                            "actionsetting": {
+                                "useEquipSmartMode": true,
+                                "useObject": 3097,
                                 "useType": "Equip"
                             }
                         },
@@ -1827,126 +1950,67 @@
                             }
                         },
                         {
-                            "actionBar": 7,
-                            "actionButton": 5,
+                            "actionBar": 4,
+                            "actionButton": 12,
                             "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 6528,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 4,
-                            "actionsetting": {
-                                "useObject": 15793,
-                                "useType": "Use"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 15,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 22061,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 18,
-                            "actionsetting": {
-                                "useObject": 7443,
-                                "useType": "Use"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 7,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 16110,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 19,
-                            "actionsetting": {
-                                "useObject": 5942,
+                                "useObject": 3161,
                                 "useType": "SelectUseTarget"
                             }
                         },
                         {
-                            "actionBar": 7,
-                            "actionButton": 8,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 16111,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 12,
-                            "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 3097,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
+                            "actionBar": 4,
                             "actionButton": 1,
                             "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 8023,
-                                "useType": "Equip"
+                                "useObject": 3148,
+                                "useType": "SelectUseTarget"
                             }
                         },
                         {
-                            "actionBar": 7,
-                            "actionButton": 11,
+                            "actionBar": 4,
+                            "actionButton": 6,
                             "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 3051,
-                                "useType": "Equip"
+                                "useObject": 3149,
+                                "useType": "SelectUseTarget"
                             }
                         },
                         {
-                            "actionBar": 7,
-                            "actionButton": 2,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 29417,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 13,
-                            "actionsetting": {
-                                "useEquipSmartMode": true,
-                                "useObject": 3053,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
-                            "actionButton": 3,
-                            "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 35848,
-                                "useType": "Equip"
-                            }
-                        },
-                        {
-                            "actionBar": 7,
+                            "actionBar": 4,
                             "actionButton": 14,
                             "actionsetting": {
-                                "useEquipSmartMode": false,
-                                "useObject": 3057,
-                                "useType": "Equip"
+                                "useObject": 3191,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 4,
+                            "actionButton": 13,
+                            "actionsetting": {
+                                "useObject": 3202,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 4,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 3197,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 4,
+                            "actionButton": 7,
+                            "actionsetting": {
+                                "useObject": 3195,
+                                "useType": "SelectUseTarget"
+                            }
+                        },
+                        {
+                            "actionBar": 4,
+                            "actionButton": 9,
+                            "actionsetting": {
+                                "useObject": 3188,
+                                "useType": "SelectUseTarget"
                             }
                         },
                         {
@@ -2002,70 +2066,6 @@
                             "actionButton": 3,
                             "actionsetting": {
                                 "useObject": 3180,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 14,
-                            "actionsetting": {
-                                "useObject": 3191,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 6,
-                            "actionsetting": {
-                                "useObject": 3149,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 1,
-                            "actionsetting": {
-                                "useObject": 3148,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 12,
-                            "actionsetting": {
-                                "useObject": 3161,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 9,
-                            "actionsetting": {
-                                "useObject": 3188,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 7,
-                            "actionsetting": {
-                                "useObject": 3195,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 2,
-                            "actionsetting": {
-                                "useObject": 3197,
-                                "useType": "SelectUseTarget"
-                            }
-                        },
-                        {
-                            "actionBar": 4,
-                            "actionButton": 13,
-                            "actionsetting": {
-                                "useObject": 3202,
                                 "useType": "SelectUseTarget"
                             }
                         },
