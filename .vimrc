@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'https://github.com/ycm-core/YouCompleteMe.git'
 Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
-Plugin 'https://github.com/NLKNguyen/papercolor-theme.git'
+Plugin 'https://github.com/morhetz/gruvbox.git'
 Plugin 'https://github.com/itchyny/lightline.vim'
 Plugin 'https://github.com/prettier/vim-prettier'
 Plugin 'https://github.com/kergoth/vim-bitbake'
@@ -39,10 +39,10 @@ set nu
 set t_Co=256
 
 set background=dark
-colorscheme PaperColor
+colorscheme gruvbox
 
 let g:lightline = {
-\   'colorscheme': 'PaperColor',
+\   'colorscheme': 'gruvbox',
 \   'active': {
 \     'left': [
 \       [ 'mode', 'paste' ],
