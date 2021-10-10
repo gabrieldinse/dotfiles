@@ -1,1 +1,1 @@
-/home/dinse/mongodb/bin/mongod --dbpath=/home/dinse/mongodb-data
+/home/dinse/mongodb/mongodb/bin/mongod --dbpath=/home/dinse/mongodb/mongodb-data
