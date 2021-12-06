@@ -111,6 +111,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias dotfiles-backup='/usr/bin/git --git-dir=/home/dinse/.cfg/ --work-tree=/home/dinse'
+alias ip='ip -c'
 
 ### Added by Zinit's installer
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
