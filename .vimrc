@@ -61,6 +61,7 @@ set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 set laststatus=2
 set nrformats="bin,hex"
 set ttyfast
+set list
 
 set tags=./tags
 
