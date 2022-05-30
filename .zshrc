@@ -132,3 +132,6 @@ autoload -Uz _zinit
 #zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
+
+unsetopt pushdignoredups
+unsetopt autopushd
