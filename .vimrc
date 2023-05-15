@@ -18,6 +18,7 @@ Plugin 'https://github.com/itchyny/lightline.vim'
 Plugin 'https://github.com/prettier/vim-prettier'
 Plugin 'https://github.com/kergoth/vim-bitbake'
 Plugin 'https://github.com/Yggdroot/indentLine'
+Plugin 'https://github.com/sheerun/vim-polyglot'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
