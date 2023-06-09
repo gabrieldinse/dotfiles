@@ -90,3 +90,6 @@ let g:ctrlp_working_path_mode = 'a'
 set directory=~/.vim/tmp
 set backupdir=~/.vim/tmp
 set undodir=~/.vim/tmp
+
+" Type '\' + 's'
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
