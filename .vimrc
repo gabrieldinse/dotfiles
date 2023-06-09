@@ -2,7 +2,9 @@ set nocompatible              " be iMproved, required
 set encoding=utf-8
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
+" Needs installing Vundle: https://github.com/VundleVim/Vundle.vim
+"
+" set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -11,14 +13,16 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Open this file on vim and run "PluginInstall"
 Plugin 'https://github.com/ycm-core/YouCompleteMe.git'
 Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
 Plugin 'https://github.com/morhetz/gruvbox.git'
 Plugin 'https://github.com/itchyny/lightline.vim'
 Plugin 'https://github.com/prettier/vim-prettier'
 Plugin 'https://github.com/kergoth/vim-bitbake'
-Plugin 'https://github.com/Yggdroot/indentLine'
 Plugin 'https://github.com/sheerun/vim-polyglot'
+Plugin 'https://github.com/zivyangll/git-blame.vim'
+"Plugin 'https://github.com/Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
