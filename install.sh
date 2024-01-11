@@ -4,8 +4,8 @@ set -o errexit  # Abort on nonzero exit status
 set -o nounset  # Abort on unset variable
 set -o pipefail # Do not hide erros within pipes
 
-readonly script_dir=$(dirname "$(readlink -f "$0")")
-readonly comment='# environment bashrc'
+readonly script_dir
+script_dir="$(dirname "$(readlink -f "$0")")"
 
 install_ycm() {
   (
@@ -21,11 +21,10 @@ if [ ! -d "$HOME/.vim/bundle/Vundle.vim" ]
 then
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
-do
 
 sudo apt update && sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 
 cp "$script_dir/config/zshrc" ~/.zshrc
 cp "$script_dir/config/gitconfig" ~/.gitconfig
