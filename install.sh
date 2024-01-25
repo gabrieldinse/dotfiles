@@ -25,6 +25,8 @@ fi
 sudo apt update && sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+git clone https://github.com/github/copilot.vim.git \
+  ~/.vim/pack/github/start/copilot.vim
 
 cp "$script_dir/config/zshrc" ~/.zshrc
 cp "$script_dir/config/gitconfig" ~/.gitconfig
@@ -35,3 +37,5 @@ cp "$script_dir/config/profile" ~/.profile
 cp "$script_dir/config/bashrc" ~/.bashrc
 
 vim +PluginInstall +qall 1>/dev/null
+vim +"Copilot setup" +qall 1>/dev/null
+
