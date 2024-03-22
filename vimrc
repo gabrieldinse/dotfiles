@@ -15,13 +15,15 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Open this file on vim and run "PluginInstall"
 Plugin 'https://github.com/ycm-core/YouCompleteMe.git'
-Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plugin 'https://github.com/morhetz/gruvbox.git'
-Plugin 'https://github.com/itchyny/lightline.vim'
-Plugin 'https://github.com/prettier/vim-prettier'
-Plugin 'https://github.com/kergoth/vim-bitbake'
-Plugin 'https://github.com/sheerun/vim-polyglot'
-Plugin 'https://github.com/zivyangll/git-blame.vim'
+Plugin 'https://github.com/itchyny/lightline.vim.git'
+Plugin 'https://github.com/prettier/vim-prettier.git'
+Plugin 'https://github.com/kergoth/vim-bitbake.git'
+Plugin 'https://github.com/sheerun/vim-polyglot.git'
+Plugin 'https://github.com/zivyangll/git-blame.vim.git'
+Plugin 'https://github.com/mhinz/vim-signify.git'
+Plugin 'https://github.com/tpope/vim-fugitive.git'
 "Plugin 'https://github.com/Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
